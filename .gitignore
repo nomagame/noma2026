@@ -1,0 +1,45 @@
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment / Secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# Build / Cache
+dist/
+build/
+out/
+tmp/
+temp/
+.cache/
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Coverage
+.coverage
+htmlcov/
+
+# Generated files
+*.tmp
+*.bak
+
+# Local configuration
+config/local.*
